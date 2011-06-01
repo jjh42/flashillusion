@@ -1,0 +1,173 @@
+<PsychoPy2experiment version="1.64.00" encoding="utf-8">
+  <Settings>
+    <Param name="Show mouse" val="False" valType="bool" updates="None"/>
+    <Param name="Save csv file" val="False" valType="bool" updates="None"/>
+    <Param name="Monitor" val="testMonitor" valType="str" updates="None"/>
+    <Param name="color" val="$[0,0,0]" valType="str" updates="None"/>
+    <Param name="Window size (pixels)" val="[1024, 768]" valType="code" updates="None"/>
+    <Param name="Full-screen window" val="True" valType="bool" updates="None"/>
+    <Param name="colorSpace" val="rgb" valType="str" updates="None"/>
+    <Param name="Save log file" val="True" valType="bool" updates="None"/>
+    <Param name="Experiment info" val="{'participant':'', 'session':'001'}" valType="code" updates="None"/>
+    <Param name="Save excel file" val="True" valType="bool" updates="None"/>
+    <Param name="Save psydat file" val="True" valType="bool" updates="None"/>
+    <Param name="logging level" val="exp" valType="code" updates="None"/>
+    <Param name="Units" val="use prefs" valType="str" updates="None"/>
+    <Param name="Show info dlg" val="True" valType="bool" updates="None"/>
+    <Param name="Saved data folder" val="" valType="code" updates="None"/>
+    <Param name="Screen" val="1" valType="num" updates="None"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <TextComponent name="text_1">
+        <Param name="name" val="text_1" valType="code" updates="None"/>
+        <Param name="color" val="white" valType="str" updates="constant"/>
+        <Param name="text" val="X" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
+        <Param name="duration" val="1.0" valType="code" updates="constant"/>
+        <Param name="letterHeight" val="5" valType="code" updates="constant"/>
+        <Param name="startTime" val="0.0" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="units" val="deg" valType="str" updates="None"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+      </TextComponent>
+      <PatchComponent name="patch_1">
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="name" val="patch_1" valType="code" updates="None"/>
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="image" val="sin" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="mask" val="gauss" valType="str" updates="constant"/>
+        <Param name="pos" val="[1, 0]" valType="code" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="duration" val="0.05" valType="code" updates="constant"/>
+        <Param name="phase" val="0.0" valType="code" updates="constant"/>
+        <Param name="startTime" val="2" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="units" val="deg" valType="str" updates="None"/>
+        <Param name="sf" val="None" valType="code" updates="constant"/>
+        <Param name="advancedParams"/>
+        <Param name="size" val="[1.5, 1.5]" valType="code" updates="constant"/>
+      </PatchComponent>
+      <SoundComponent name="sound_1">
+        <Param name="sound" val="tink.wav" valType="str" updates="constant"/>
+        <Param name="duration" val="0.02" valType="code" updates="constant"/>
+        <Param name="name" val="sound_1" valType="code" updates="None"/>
+        <Param name="startTime" val="2" valType="code" updates="constant"/>
+      </SoundComponent>
+      <SoundComponent name="sound_2">
+        <Param name="sound" val="tink.wav" valType="str" updates="constant"/>
+        <Param name="duration" val="0.02" valType="code" updates="constant"/>
+        <Param name="name" val="sound_2" valType="code" updates="None"/>
+        <Param name="startTime" val="2.10" valType="code" updates="constant"/>
+      </SoundComponent>
+      <TextComponent name="text_2">
+        <Param name="name" val="text_2" valType="code" updates="None"/>
+        <Param name="color" val="white" valType="str" updates="constant"/>
+        <Param name="text" val="?" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
+        <Param name="duration" val="5.0" valType="code" updates="constant"/>
+        <Param name="letterHeight" val="5" valType="code" updates="constant"/>
+        <Param name="startTime" val="7.0" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="units" val="deg" valType="str" updates="None"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+      </TextComponent>
+      <PatchComponent name="patch_2">
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="name" val="patch_2" valType="code" updates="None"/>
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="image" val="sin" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="mask" val="gauss" valType="str" updates="constant"/>
+        <Param name="pos" val="[2, 0]" valType="code" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="duration" val="0.05" valType="code" updates="constant"/>
+        <Param name="phase" val="0.0" valType="code" updates="constant"/>
+        <Param name="startTime" val="2.1" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="units" val="deg" valType="str" updates="None"/>
+        <Param name="sf" val="None" valType="code" updates="constant"/>
+        <Param name="advancedParams"/>
+        <Param name="size" val="[1.5, 1.5]" valType="code" updates="constant"/>
+      </PatchComponent>
+      <PatchComponent name="patch_3">
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="name" val="patch_3" valType="code" updates="None"/>
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="image" val="sin" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="mask" val="gauss" valType="str" updates="constant"/>
+        <Param name="pos" val="[3, 0]" valType="code" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="duration" val="0.05" valType="code" updates="constant"/>
+        <Param name="phase" val="0.0" valType="code" updates="constant"/>
+        <Param name="startTime" val="2.2" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="units" val="deg" valType="str" updates="None"/>
+        <Param name="sf" val="None" valType="code" updates="constant"/>
+        <Param name="advancedParams"/>
+        <Param name="size" val="[1.5, 1.5]" valType="code" updates="constant"/>
+      </PatchComponent>
+      <PatchComponent name="patch_4">
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="name" val="patch_4" valType="code" updates="None"/>
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="image" val="sin" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="mask" val="gauss" valType="str" updates="constant"/>
+        <Param name="pos" val="[4, 0]" valType="code" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="duration" val="0.05" valType="code" updates="constant"/>
+        <Param name="phase" val="0.0" valType="code" updates="constant"/>
+        <Param name="startTime" val="2.3" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="units" val="deg" valType="str" updates="None"/>
+        <Param name="sf" val="None" valType="code" updates="constant"/>
+        <Param name="advancedParams"/>
+        <Param name="size" val="[1.5, 1.5]" valType="code" updates="constant"/>
+      </PatchComponent>
+      <SoundComponent name="sound_3">
+        <Param name="sound" val="tink.wav" valType="str" updates="constant"/>
+        <Param name="duration" val="0.02" valType="code" updates="constant"/>
+        <Param name="name" val="sound_3" valType="code" updates="None"/>
+        <Param name="startTime" val="2.2" valType="code" updates="constant"/>
+      </SoundComponent>
+      <SoundComponent name="sound_4">
+        <Param name="sound" val="tink.wav" valType="str" updates="constant"/>
+        <Param name="duration" val="0.02" valType="code" updates="constant"/>
+        <Param name="name" val="sound_4" valType="code" updates="None"/>
+        <Param name="startTime" val="2.3" valType="code" updates="constant"/>
+      </SoundComponent>
+      <SoundComponent name="sound_5">
+        <Param name="sound" val="tink.wav" valType="str" updates="constant"/>
+        <Param name="duration" val="0.02" valType="code" updates="constant"/>
+        <Param name="name" val="sound_5" valType="code" updates="None"/>
+        <Param name="startTime" val="2.4" valType="code" updates="constant"/>
+      </SoundComponent>
+      <PatchComponent name="patch_true">
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="name" val="patch_true" valType="code" updates="None"/>
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="image" val="sin" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="mask" val="gauss" valType="str" updates="constant"/>
+        <Param name="pos" val="[4, 0]" valType="code" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="duration" val="10.0" valType="code" updates="constant"/>
+        <Param name="phase" val="0.0" valType="code" updates="constant"/>
+        <Param name="startTime" val="10.0" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="units" val="deg" valType="str" updates="None"/>
+        <Param name="sf" val="None" valType="code" updates="constant"/>
+        <Param name="advancedParams"/>
+        <Param name="size" val="[1.5, 1.5]" valType="code" updates="constant"/>
+      </PatchComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="trial"/>
+  </Flow>
+</PsychoPy2experiment>
